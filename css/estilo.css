@@ -65,7 +65,8 @@ nav a{
 .nav-item a:hover{
     background-color: var(--success);
     border-radius: 10px;
-    box-shadow: 0 5px 5px var(--color-3);  
+    box-shadow: 0 5px 5px var(--color-3);
+    transition: 0.2s; 
 }
 @media screen and (max-width:500px) {
     .navbar-brand img{
@@ -199,6 +200,13 @@ a.enlacelogo{
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 2%;
+}
+.vermas:hover{
+    background: rgb(230, 170, 60);
+    color: white;
+    border-color: rgb(230, 170, 60);
+    font-style: italic;
+    transition: 0.5s;
 }
 @media screen and (max-width:500px){
     .container__1 p{

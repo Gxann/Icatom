@@ -60,7 +60,8 @@ nav a{
 .nav-item a:hover{
     background-color: var(--success);
     border-radius: 10px;
-    box-shadow: 0 5px 5px var(--color-3);  
+    box-shadow: 0 5px 5px var(--color-3);
+    transition: 0.2s;   
 }
 @media screen and (max-width:500px) {
     .navbar-brand img{

@@ -60,6 +60,7 @@ nav a{
     background-color: var(--success);
     border-radius: 10px;
     box-shadow: 0 5px 5px var(--color-3);
+    transition: 0.2s; 
 }
 @media screen and (max-width:500px) {
     .navbar-brand img{
@@ -154,13 +155,15 @@ h5{
     padding: 20px 20px 20px 20px;
     margin-left: 38.5%;
     color: white;
+    border-radius: 50px;
 }
 .boton a:hover{
     color: white;
     transition: 1s ease;
     background: var(--success);
     text-decoration: none;
-
+    border-radius: 20px;
+    font-weight: 600;
 }
 @media screen and (max-width:500px) {
     .card{
